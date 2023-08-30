@@ -26,7 +26,6 @@ For more details, check the [documentation](https://www.boredapi.com/documentati
 Clone this repository and create a new one on your own GitHub account. When you are done, please send us the link to your repository.
 
 ## Tasks
-Every call to Bored Api will return a single activity at random. The activity will contain the type of activity to do, a description, the number of participants required, and the price of the activity.
 
 ### API Calls
 1. Create an API wrapper for bored API, This wrapper should have a method that returns a random activity, and should accept parameters to filter the activities by type, number of participants, price range, and accessibility range.
