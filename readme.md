@@ -1,6 +1,6 @@
 # Evowill Technical Challenge
 
-For this challenge, we are going to use the API of [bored API](https://www.boredapi.com/). This API gives us a random activity to do every time you call it, for example, if you make the following call:
+For this challenge, you are going to use the API of [bored API](https://www.boredapi.com/). This API gives us a random activity to do every time you call it, for example, if you make the following call:
 
 ```
 GET https://www.boredapi.com/api/activity
@@ -42,7 +42,7 @@ Every call to Bored Api will return a single activity at random. The activity wi
     ```bash
     my_program new --type education --participants 1 --price_min 0.1 --price_max 30 --accessibility_min 0.1 --accessibility_max 0.5
     ```
-This command will get a random activity with the type education, 1 participant, a price of 0.1, and an accessibility of 0.1 and save it in the database.
+This command should get a random activity with the type education, 1 participant, a price of 0.1, and an accessibility of 0.1 and save it in the database.
 
 
 4. Add another command to the program that will return the last activities saved in the database. The command should look like this:
@@ -50,7 +50,7 @@ This command will get a random activity with the type education, 1 participant, 
     ```bash
     my_program list
     ```
-This command will return the last 5 activities saved in the database.
+This command should return the last 5 activities saved in the database.
 
 
 ## Extra points
