@@ -1,4 +1,4 @@
-# Evowill Technical Challenge
+# Technical Challenge for Juniors
 
 For this challenge, you are going to use the API of [bored API](https://www.boredapi.com/). This API gives us a random activity to do every time you call it, for example, if you make the following call:
 
